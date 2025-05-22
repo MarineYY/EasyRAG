@@ -1,10 +1,10 @@
-# EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
+<!-- # EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations -->
 
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/BUAADreamer/EasyRAG/blob/main/licence)
+<!-- [![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/BUAADreamer/EasyRAG/blob/main/licence)
 [![arxiv badge](https://img.shields.io/badge/arxiv-2410.10315-red)](https://arxiv.org/abs/2410.10315)
 [![GitHub Repo stars](https://img.shields.io/github/stars/BUAADreamer/EasyRAG?style=social)](https://github.com/BUAADreamer/EasyRAG/stargazers)
-[![zhihu blog](https://img.shields.io/badge/zhihu-Blog-informational)](https://zhuanlan.zhihu.com/p/7272025344)
-## Table of Contents
+[![zhihu blog](https://img.shields.io/badge/zhihu-Blog-informational)](https://zhuanlan.zhihu.com/p/7272025344) -->
+<!-- ## Table of Contents
 
 - [Overview](#Overview)
 - [Requirements](#Requirements)
@@ -12,11 +12,11 @@
 - [Usage](#Usage)
 - [Project Structure](#Project-Structure)
 - [Citation](#Citation)
-- [Acknowledgement](#Acknowledgement)
+- [Acknowledgement](#Acknowledgement) -->
 
-## Overview
+<!-- ## Overview
 
-This paper presents EasyRAG, a simple, lightweight, and efficient retrieval-augmented generation framework for automated network operations. Our framework has three advantages. The first is accurate question answering. We designed a straightforward RAG scheme based on (1) a specific data processing workflow (2) dual-route sparse retrieval for coarse ranking (3) LLM Reranker for reranking (4) LLM answer generation and optimization. This approach achieved first place in the GLM4 track in the preliminary round and second place in the GLM4 track in the semifinals. The second is simple deployment. Our method primarily consists of BM25 retrieval and BGE-reranker reranking, requiring no fine-tuning of any models, occupying minimal VRAM, easy to deploy, and highly scalable; we provide a flexible code library with various search and generation strategies, facilitating custom process implementation. The last one is efficient inference. We designed an efficient inference acceleration scheme for the entire coarse ranking, reranking, and generation process that significantly reduces the inference latency of RAG while maintaining a good level of accuracy; each acceleration scheme can be plug-and-play into any component of the RAG process, consistently enhancing the efficiency of the RAG system.
+This paper presents EasyRAG, a simple, lightweight, and efficient retrieval-augmented generation framework for automated network operations. Our framework has three advantages. The first is accurate question answering. We designed a straightforward RAG scheme based on (1) a specific data processing workflow (2) dual-route sparse retrieval for coarse ranking (3) LLM Reranker for reranking (4) LLM answer generation and optimization. This approach achieved first place in the GLM4 track in the preliminary round and second place in the GLM4 track in the semifinals. The second is simple deployment. Our method primarily consists of BM25 retrieval and BGE-reranker reranking, requiring no fine-tuning of any models, occupying minimal VRAM, easy to deploy, and highly scalable; we provide a flexible code library with various search and generation strategies, facilitating custom process implementation. The last one is efficient inference. We designed an efficient inference acceleration scheme for the entire coarse ranking, reranking, and generation process that significantly reduces the inference latency of RAG while maintaining a good level of accuracy; each acceleration scheme can be plug-and-play into any component of the RAG process, consistently enhancing the efficiency of the RAG system. -->
 
 <div align="center">
     <img src="assets/overview.png" width="95%" height="auto" />
@@ -112,7 +112,7 @@ Only the code that may be used in the semi-final is explained.
 - Dockerfile # docker configuration file
 ```
 
-## Citation
+<!-- ## Citation
 
 ```latex
 @article{feng2024easyrag,
@@ -121,12 +121,12 @@ Only the code that may be used in the semi-final is explained.
   journal={arXiv preprint arXiv:2410.10315},
   year={2024}
 }
-```
+``` -->
 
-## Acknowledgement
+<!-- ## Acknowledgement
 
 Thanks to the [CCF AIOps 2024 Challenge Organising Committee](https://competition.aiops-challenge.com/home/competition/1780211530478944282) , they provide high quality data and a good atmosphere.
 
 ## Star History
 
-![Star History Chart](https://api.star-history.com/svg?repos=BUAADreamer/EasyRAG&type=Date)
+![Star History Chart](https://api.star-history.com/svg?repos=BUAADreamer/EasyRAG&type=Date) -->
