@@ -18,9 +18,9 @@
 
 This paper presents EasyRAG, a simple, lightweight, and efficient retrieval-augmented generation framework for automated network operations. Our framework has three advantages. The first is accurate question answering. We designed a straightforward RAG scheme based on (1) a specific data processing workflow (2) dual-route sparse retrieval for coarse ranking (3) LLM Reranker for reranking (4) LLM answer generation and optimization. This approach achieved first place in the GLM4 track in the preliminary round and second place in the GLM4 track in the semifinals. The second is simple deployment. Our method primarily consists of BM25 retrieval and BGE-reranker reranking, requiring no fine-tuning of any models, occupying minimal VRAM, easy to deploy, and highly scalable; we provide a flexible code library with various search and generation strategies, facilitating custom process implementation. The last one is efficient inference. We designed an efficient inference acceleration scheme for the entire coarse ranking, reranking, and generation process that significantly reduces the inference latency of RAG while maintaining a good level of accuracy; each acceleration scheme can be plug-and-play into any component of the RAG process, consistently enhancing the efficiency of the RAG system. -->
 
-<div align="center">
+<!-- <div align="center">
     <img src="assets/overview.png" width="95%" height="auto" />
-</div>
+</div> -->
 
 ## Requirements
 
@@ -73,7 +73,7 @@ cd src
 streamlit run webui.py
 ```
 
-## Project Structure
+<!-- ## Project Structure
 
 Only the code that may be used in the semi-final is explained.
 
@@ -110,7 +110,7 @@ Only the code that may be used in the semi-final is explained.
 - requirements.txt # python requirements
 - run.sh # docker run script
 - Dockerfile # docker configuration file
-```
+``` -->
 
 <!-- ## Citation
 
