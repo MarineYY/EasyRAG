@@ -24,9 +24,7 @@ This paper presents EasyRAG, a simple, lightweight, and efficient retrieval-augm
 
 ## Requirements
 
-EasyRAG needs Python3.10.14 and at least 1 GPU with 16GB. 
-
-You need to change `llm_keys` in `src/easyrag.yaml` to your GLM keys.
+<!-- You need to change `llm_keys` in `src/easyrag.yaml` to your GLM keys. -->
 
 ```shell
 pip install -r requirements.txt
